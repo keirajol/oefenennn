@@ -1,0 +1,181 @@
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.button-1 {
+    background-color: #0074bc;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.button-1:hover {
+    background-color: #0074bc;
+}
+
+/* Style the instructors section */
+.instructeur {
+    margin-top: 50px;
+}
+
+/* Style the email links */
+a {
+    color: #0074bc;
+    text-decoration: none;
+}
+
+/* Style for the first row */
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.tekst {
+    width: 70%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0062cc;
+}
+
+
+.footer {
+    background-color: #bfcfe0;
+    color: #000000;
+    padding: 20px;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the logo */
+.navbar img {
+    margin-right: 20px;
+}
+
+/* Style the links in the navbar */
+.locations a {
+    font-size: 18px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0074bc;
+}
+
+/* Style the active link in the navbar */
+.locations a.active {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Style the contact section */
+.contact {
+    margin-top: 50px;
+}
+
+/* Style the contact form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #0074bc;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #0074bc;
+}
